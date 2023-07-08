@@ -2,18 +2,22 @@ import Head from 'next/head';
 import styles from '../styles/Home.module.css';
 import Link from 'next/link'
 
+
 export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
         <title>Create Next App</title>
         <link rel="icon" href="/favicon.ico" />
+
+        
       </Head>
 
       <main>
         <h1 className={styles.title}>
           learn <Link href="/posts/post">Next.js!</Link>
         </h1>
+        <Link href="/contact">Contact page</Link>
 
         <p className={styles.description}>
           Get started by editing <code>pages/index.js</code>
